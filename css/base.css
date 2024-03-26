@@ -15,8 +15,8 @@ html {
 
 body {
     font-family: var(--body-font);
-    background-color: var(--color-white);
-    color: var(--color-text);
+    background-color: var(--color-black);
+    color: var(--color-light);
     position: relative;
 }
 
@@ -72,8 +72,4 @@ label {
 
 input[type="radio"] {
     display: none;
-}
-
-.body-wrapper {
-    padding: 0 2rem;
 }

@@ -1,0 +1,49 @@
+/* ========= HEADER ========= */
+.header {
+    position: sticky;
+    top: 0;
+    padding-bottom: 1rem;
+    background: linear-gradient(
+        180deg,
+        rgb(0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.4) 80%,
+        rgba(0, 0, 0, 0) 100%
+    );
+    z-index: 10;
+}
+
+.header-container,
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container {
+    padding: 1rem 0;
+}
+
+.logo {
+    height: 60px;
+}
+
+.menu {
+    width: 650px;
+}
+
+.menu__item {
+    padding: 1.6rem 2rem;
+}
+
+.menu__link {
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+    color: var(--color-light);
+    transition: all 1s ease;
+}
+
+.menu__link:hover {
+    color: var(--color-brand);
+}

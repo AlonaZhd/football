@@ -1,0 +1,9 @@
+/* ========= FEATURES ========= */
+.features {
+    height: 1000px;
+    background-color: var(--color-dark);
+    background-image: url("../img/dark-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}

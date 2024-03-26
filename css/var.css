@@ -1,12 +1,15 @@
 /*=============== VARIABLES ===============*/
 :root {
     /*========== Colors ==========*/
-    --color-black: #000000;
+    --color-black: #010101;
     --color-white: #ffffff;
-    --color-dark: #1d1d25;
+    --color-dark: #001621;
+    --color-brand: #16cc47;
+    --color-light: #cccccc;
 
     /*========== Font and typography ==========*/
     --body-font: "Poppins", sans-serif;
+    --title-font: "Oswald", sans-serif;
 
     /*========== Breakpoint ==========*/
     --screen-desktop: 1279px;
