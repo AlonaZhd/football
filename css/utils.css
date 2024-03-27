@@ -84,3 +84,7 @@
     text-transform: uppercase;
     margin-left: -25px;
 }
+
+.header-burger {
+    display: none;
+}

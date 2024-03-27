@@ -11,15 +11,4 @@
     /*========== Font and typography ==========*/
     --body-font: "Poppins", sans-serif;
     --title-font: "Oswald", sans-serif;
-
-    /*========== Breakpoint ==========*/
-    --screen-desktop: 1279px;
-    --screen-laptop: 1024px;
-    --screen-tablet: 768px;
-    --screen-mobile: 575px;
-
-    /* Large(Desktop): 1025px - 1279px */
-    /* Medium(Laptop): 769px - 1024px */
-    /* Small(Tablet): 391px - 768px */
-    /* Extra small(Mobile): 0px (320px) - 575px */
 }
