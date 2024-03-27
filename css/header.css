@@ -20,6 +20,7 @@
 }
 
 .header-container {
+    width: 100%;
     padding: 1rem 0;
 }
 
@@ -40,7 +41,7 @@
     font-weight: 600;
     letter-spacing: 1.12px;
     text-transform: uppercase;
-    color: var(--color-light);
+    color: var(--color-white);
     transition: all 1s ease;
 }
 

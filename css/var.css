@@ -5,7 +5,8 @@
     --color-white: #ffffff;
     --color-dark: #001621;
     --color-brand: #16cc47;
-    --color-light: #cccccc;
+    --color-light: #aaaaaa;
+    --color-subtitle: #888888;
 
     /*========== Font and typography ==========*/
     --body-font: "Poppins", sans-serif;

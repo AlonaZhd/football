@@ -8,6 +8,18 @@
     width: 100%;
     margin: 0 auto;
     padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container--center {
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .main-container {
@@ -16,7 +28,12 @@
 
 .title {
     font-family: var(--title-font);
-    line-height: 130%;
+    line-height: 100%;
+}
+
+.subtitle {
+    color: var(--color-subtitle);
+    text-transform: uppercase;
 }
 
 .text {
@@ -56,4 +73,14 @@
     height: 50px;
     border-radius: 50%;
     background-color: var(--color-brand);
+}
+
+.accent__title {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+        0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: 4.32px;
+    text-transform: uppercase;
+    margin-left: -25px;
 }

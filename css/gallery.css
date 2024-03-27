@@ -1,1 +1,33 @@
 /* ========= GALLERY ========= */
+.gallery__wrapp {
+    width: fit-content;
+    display: flex;
+    align-items: flex-start;
+    gap: 7rem;
+}
+
+.gallery__item {
+    padding: 0 1rem;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card__image {
+    z-index: 5;
+    padding: 2rem;
+    object-fit: cover;
+}
+
+.card__wrapp {
+    margin-top: -60px;
+    padding: 4.5rem;
+    padding-bottom: 2.5rem;
+    border-radius: 30px;
+    border: 3px solid var(--color-brand);
+}
+
+.card__text {
+    margin-top: 2rem;
+}
